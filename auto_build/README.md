@@ -6,5 +6,7 @@
     delete.sh -f xxx
     
     
-ddd![cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
+ddd
+
+[cmd-markdown-logo](https://www.zybuluo.com/static/img/logo.png)
 
