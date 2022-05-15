@@ -57,7 +57,6 @@ main(){
     getPID
     getjar
     restart
-
     exit 1
 }
 
@@ -109,7 +108,7 @@ unzip(){
 ##PID
 getPID(){
     echo "$currTime---------->>定位PID<<----------"
-    PID=$(ps -ef | grep "mobile-cc-agentcode" | grep -v grep | awk '{print $2}')
+    PID=$(ps -ef | grep "agentcode" | grep -v grep | awk '{print $2}')
       echo "$currTime----------PID=$PID "
 }
 
@@ -126,7 +125,7 @@ restart(){
         echo "$currTime----------kill -9 $PID"
         $(kill -9 $PID)
     else
-       echo "PID 等于 kong "
+       echo "PID 等于 空 "
     fi
 
     echo "$currTime----------cd ${JAR%/*} "

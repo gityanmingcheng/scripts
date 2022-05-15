@@ -2,10 +2,11 @@
 
 
 from='yanggang@fruitsmobile.com'
-to='yanggang_2050@163.com'
+from="392184312@qq.com"
+to="chengyanming@58.com"
 
 email_date=''
-email_content='/Users/chengyanming/Desktop/sss/report/report1/com.wuba.wsplatformsdk.dispatcher/index.html'
+email_content="/Users/chengyanming/Desktop/Advised.xml"
 email_subject='Top800_Game_Free_USA'
 
 
