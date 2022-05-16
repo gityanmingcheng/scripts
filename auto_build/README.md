@@ -6,6 +6,7 @@
 
     delete.sh -f /opt/work
     
+![1](../static/auto_build/1.png)
 
 ## 2.cleanWorkDir.sh 
 清理工作空间
