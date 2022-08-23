@@ -12,13 +12,7 @@ main(){
     getPID
     if [ "$PID" = "" ]; then
         echo "PID 等于 空  需要重启"
-    fi
-
-    if [ -n "$PID" ]
-    then
-        echo "$currTime----------kill -9 $PID"
-    else
-       echo "PID 等于 空 "
+        restart
     fi
     #restart
     exit 1
