@@ -10,7 +10,7 @@ main(){
     getslogan
 
     getPID
-    if [ $PID == "" ]; then
+    if [ "$PID" = "" ]; then
         echo "PID 等于 空  需要重启"
     fi
 
