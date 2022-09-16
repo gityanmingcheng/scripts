@@ -19,6 +19,7 @@ SERVER_NAME=""#sqc_coverage-1.0.0-SNAPSHOT.jar
 PID=""
 
 
+# 主流程
 main(){
     getParams  "$@"
     checkParams
